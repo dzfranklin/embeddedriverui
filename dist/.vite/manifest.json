@@ -1,0 +1,35 @@
+{
+  "_dagrejs-rs5VwsDj.js": {
+    "file": "assets/dagrejs-rs5VwsDj.js",
+    "name": "dagrejs"
+  },
+  "_react-dom-DNaZrWG_.js": {
+    "file": "assets/react-dom-DNaZrWG_.js",
+    "name": "react-dom",
+    "imports": [
+      "_dagrejs-rs5VwsDj.js"
+    ]
+  },
+  "_reactflow-B5nHXMXM.js": {
+    "file": "assets/reactflow-B5nHXMXM.js",
+    "name": "reactflow",
+    "imports": [
+      "_react-dom-DNaZrWG_.js",
+      "_dagrejs-rs5VwsDj.js"
+    ]
+  },
+  "src/main.tsx": {
+    "file": "assets/main-BdyB8qiq.js",
+    "name": "main",
+    "src": "src/main.tsx",
+    "isEntry": true,
+    "imports": [
+      "_react-dom-DNaZrWG_.js",
+      "_reactflow-B5nHXMXM.js",
+      "_dagrejs-rs5VwsDj.js"
+    ],
+    "css": [
+      "assets/main-C0XsIaZC.css"
+    ]
+  }
+}
